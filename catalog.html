@@ -9,12 +9,12 @@
     <header class="main-header">
       <div class="container">
         <nav class="main-navigation">
-          <ul>
-            <li><a href="#">Информация</a></li>
-            <li><a href="#">Новости</a></li>
-            <li><a href="#">Прайс-лист</a></li>
-            <li><a href="#">Магазин</a></li>
-            <li><a href="#">Контакты</a></li>
+          <ul class="navbar">
+            <li class="navbar-nav-item"><a class="navbar-nav-link" href="#">Информация</a></li>
+            <li class="navbar-nav-item"><a class="navbar-nav-link" href="#">Новости</a></li>
+            <li class="navbar-nav-item"><a class="navbar-nav-link" href="#">Прайс-лист</a></li>
+            <li class="navbar-nav-item"><a class="navbar-nav-link" href="#">Магазин</a></li>
+            <li class="navbar-nav-item"><a class="navbar-nav-link" href="#">Контакты</a></li>
           </ul>
         </nav>
 
@@ -28,27 +28,29 @@
        <div class="container">
 
          <ul class="breadcrumbs">
-           <li><a href="index.html">Главная</a></li>
-           <li><a href="catalog.html">Магазин</a></li>
-           <li>Средства для ухода</li>
+           <li class="breadcrumbs-item"><a class="breadcrumbs-item-link" href="index.html">Главная</a></li>
+           <li class="breadcrumbs-item"><a class="breadcrumbs-item-link" href="catalog.html">Магазин</a></li>
+           <li class="breadcrumbs-item">Средства для ухода</li>
          </ul>
        </div>
 
            <div class="side-left">
-             <form class="sidebar-one">
-               <h2>Производители:</h2>
-               <p><input id="check1" type="checkbox" name="first" checked><label for="check1">Baxter of California</label></p>
-               <p><input id="check2" type="checkbox" name="second"><label for="check2">Mr Natty</label></p>
-               <p><input id="check3" type="checkbox" name="third" checked><label for="check3">Suavecito</label></p>
-               <p><input id="check4" type="checkbox" name="fourth"><label for="check4">Malin+Goetz</label></p>
-               <p><input id="check5" type="checkbox" name="fifth"><label for="check5">Murray's</label></p>
-               <p><input id="check6" type="checkbox" name="sixth" checked><label for="check6">American Crew</label></p>
-             </form>
-             <form class="sidebar-two">
-               <h2>Группы товаров:</h2>
-               <p><input id="r1" type="radio" name="cat-radio"><label for="r1">Бритвенные принадлежности</label></p>
-               <p><input id="r2" type="radio" name="cat-radio" checked><label for="r2">Средства для ухода</label></p>
-               <p><input id="r3" type="radio" name="cat-radio"><label for="r3">Аксессуары</label></p>
+             <form class="sidebar">
+               <div class="sidebar-filter-one">
+                 <h2>Производители:</h2>                 
+                 <p><input id="check1" type="checkbox" name="first" checked><label for="check1">Baxter of California</label></p>
+                 <p><input id="check2" type="checkbox" name="second"><label for="check2">Mr Natty</label></p>
+                 <p><input id="check3" type="checkbox" name="third" checked><label for="check3">Suavecito</label></p>
+                 <p><input id="check4" type="checkbox" name="fourth"><label for="check4">Malin+Goetz</label></p>
+                 <p><input id="check5" type="checkbox" name="fifth"><label for="check5">Murray's</label></p>
+                 <p><input id="check6" type="checkbox" name="sixth" checked><label for="check6">American Crew</label></p>
+               </div>                 
+               <div class="sidebar-filter-two">
+                 <h2>Группы товаров:</h2>                   
+                 <p><input id="r1" type="radio" name="cat-radio"><label for="r1">Бритвенные принадлежности</label></p>
+                 <p><input id="r2" type="radio" name="cat-radio" checked><label for="r2">Средства для ухода</label></p>
+                 <p><input id="r3" type="radio" name="cat-radio"><label for="r3">Аксессуары</label></p>
+               </div>
              </form>
              <button type="submit" class="show">Показать</button>
            </div>
